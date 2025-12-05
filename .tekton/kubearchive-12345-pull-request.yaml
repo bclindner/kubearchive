@@ -75,7 +75,7 @@ spec:
       description: Setting for KO_DOCKER_REPO
       name: ko-docker-repo
       type: string
-    - default: ""
+    - default: "cmd/api"
       description: Import path to build
       name: import-path
       type: string
