@@ -189,6 +189,8 @@ spec:
         value: $(tasks.prefetch-dependencies.results.SOURCE_ARTIFACT)
       - name: TAG
         value: $(params.pr-tag)
+      - name: IMAGE_NAMING_STRATEGY
+        value: '--bare'
       runAfter:
       - prefetch-dependencies
       taskRef:
