@@ -71,7 +71,7 @@ spec:
       description: Default base image for ko
       name: default-base-image
       type: string
-    - default: "kubearchive"
+    - default: ""
       description: Setting for KO_DOCKER_REPO
       name: ko-docker-repo
       type: string
