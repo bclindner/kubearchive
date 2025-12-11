@@ -193,7 +193,7 @@ spec:
         - name: name
           value: ko-oci-ta
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:ko-oci-ta-0.1@sha256:177f79c5179de268ca38e25191d975b214e943f08602389561ce106b02ecfe72
+          value: quay.io/rh-ee-blindner/build-definitions:ko-oci-ta-0.1@sha256:bdbca4d50ffa5217ef50de922200b10ad2de6b3d0986832f1171b1284b37707b
         - name: kind
           value: task
         resolver: bundles
