@@ -114,7 +114,7 @@ spec:
         - name: name
           value: init
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:init-0.2@sha256:dfe726cffa515c52a3e711089285962350ba4d85c93fceb767cfaa4ef840dd73
+          value: quay.io/rh-ee-blindner/build-definitions:init-0.2
         - name: kind
           value: task
         resolver: bundles
@@ -135,7 +135,7 @@ spec:
         - name: name
           value: git-clone-oci-ta
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:git-clone-oci-ta-0.1@sha256:1b8e852a523cf36bc7207d9034b6b020986290cd62b27e0e0e745a881dd97f57
+          value: quay.io/rh-ee-blindner/build-definitions:git-clone-oci-ta-0.1
         - name: kind
           value: task
         resolver: bundles
@@ -164,7 +164,7 @@ spec:
         - name: name
           value: prefetch-dependencies-oci-ta
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:prefetch-dependencies-oci-ta-0.2@sha256:9d7727c8e9ff610c96e60d7a675c7d0f0109631443643860c94a21b89a14dc94
+          value: quay.io/rh-ee-blindner/build-definitions:prefetch-dependencies-oci-ta-0.2
         - name: kind
           value: task
         resolver: bundles
@@ -198,7 +198,7 @@ spec:
         - name: name
           value: ko-oci-ta
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:ko-oci-ta-0.1@sha256:8ac4dcdb8145322dd64000b44d56d3697bedf3a39abb69a66ccc53f699a3cacc
+          value: quay.io/rh-ee-blindner/build-definitions:ko-oci-ta-0.1
         - name: kind
           value: task
         resolver: bundles
@@ -229,7 +229,7 @@ spec:
         - name: name
           value: build-image-index
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-build-image-index:0.2@sha256:803ae1ecf35bc5d22be9882819e942e4b699cb17655055afc6bb6b02d34cfab8
+          value: quay.io/konflux-ci/tekton-catalog/task-build-image-index:0.2
         - name: kind
           value: task
         resolver: bundles
@@ -253,7 +253,7 @@ spec:
         - name: name
           value: source-build-oci-ta
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:source-build-oci-ta-0.3@sha256:e94485cb65c9b712036de6103a4465cdb45228b0b9dd80e9058601a6bf88b25b
+          value: quay.io/rh-ee-blindner/build-definitions:source-build-oci-ta-0.3
         - name: kind
           value: task
         resolver: bundles
@@ -279,7 +279,7 @@ spec:
         - name: name
           value: deprecated-image-check
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-deprecated-image-check:0.5@sha256:f59175d9a0a60411738228dfe568af4684af4aa5e7e05c832927cb917801d489
+          value: quay.io/konflux-ci/tekton-catalog/task-deprecated-image-check:0.5
         - name: kind
           value: task
         resolver: bundles
@@ -301,7 +301,7 @@ spec:
         - name: name
           value: clair-scan
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:clair-scan-0.3@sha256:b38f3ee6a0b33ab6dbdf2bc9e099bed24c0b731d018cc73411de2f6f4064600d
+          value: quay.io/rh-ee-blindner/build-definitions:clair-scan-0.3
         - name: kind
           value: task
         resolver: bundles
@@ -321,7 +321,7 @@ spec:
         - name: name
           value: ecosystem-cert-preflight-checks
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:ecosystem-cert-preflight-checks-0.2@sha256:f4a71d1cfe10939f1cc763078d895620f5b1a4cb39ffbbf0d3bfb2f7f64dae49
+          value: quay.io/rh-ee-blindner/build-definitions:ecosystem-cert-preflight-checks-0.2
         - name: kind
           value: task
         resolver: bundles
@@ -345,7 +345,7 @@ spec:
         - name: name
           value: sast-snyk-check-oci-ta
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-sast-snyk-check-oci-ta:0.4@sha256:60f2dac41844d222086ff7f477e51f3563716b183d87db89f603d6f604c21760
+          value: quay.io/konflux-ci/tekton-catalog/task-sast-snyk-check-oci-ta:0.4
         - name: kind
           value: task
         resolver: bundles
@@ -367,7 +367,7 @@ spec:
         - name: name
           value: clamav-scan
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:clamav-scan-0.3@sha256:5bd3922a3399764c8607a94067a69752455f4936223212d31011085bd0823bb5
+          value: quay.io/rh-ee-blindner/build-definitions:clamav-scan-0.3
         - name: kind
           value: task
         resolver: bundles
@@ -391,7 +391,7 @@ spec:
         - name: name
           value: sast-shell-check-oci-ta
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-sast-shell-check-oci-ta:0.1@sha256:1f0fcba24ebc447d9f8a2ea2e8f262fa435d6c523ca6b0346cd67261551fc9ed
+          value: quay.io/konflux-ci/tekton-catalog/task-sast-shell-check-oci-ta:0.1
         - name: kind
           value: task
         resolver: bundles
@@ -415,7 +415,7 @@ spec:
         - name: name
           value: sast-unicode-check-oci-ta
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-sast-unicode-check-oci-ta:0.3@sha256:1833c618170ab9deb8455667f220df8e88d16ccd630a2361366f594e2bdcb712
+          value: quay.io/konflux-ci/tekton-catalog/task-sast-unicode-check-oci-ta:0.3
         - name: kind
           value: task
         resolver: bundles
@@ -437,7 +437,7 @@ spec:
         - name: name
           value: apply-tags
         - name: bundle
-          value: quay.io/rh-ee-blindner/build-definitions:apply-tags-0.2@sha256:d251e8b4db534df62444ec44469a0481291e34c063d190c642883e9091493b03
+          value: quay.io/rh-ee-blindner/build-definitions:apply-tags-0.2
         - name: kind
           value: task
         resolver: bundles
@@ -454,7 +454,7 @@ spec:
         - name: name
           value: rpms-signature-scan
         - name: bundle
-          value: quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan:0.2@sha256:f07afcc3eddc7f34ccd29158250b2818499ae7a1c8a8669891bc377fd2742f7e
+          value: quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan:0.2
         - name: kind
           value: task
         resolver: bundles
